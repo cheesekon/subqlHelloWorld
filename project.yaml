@@ -8,8 +8,8 @@ repository: 'https://github.com/subquery/moonbeam-alpha-subql-starter'
 schema:
   file: ./schema.graphql
 network:
-  endpoint: 'ws://localhost:9944'
-  genesisHash: '0x6ea1b9835ddf9b9a4e2cef4e84bc6ceb17a29157d3e63489e3e727ddb20fe560'
+  endpoint: 'wss://moonbeam-alpha.api.onfinality.io/public-ws'
+  genesisHash: '0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527'
   dictionary: 'https://sz.api.subquery.network/sq/subquery/moonbase-alpha-dictionary'
   chaintypes:
     file: ./dist/chaintypes.js
